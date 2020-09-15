@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004CF3292510BD2000F29753 /* Fullstack_notes_APPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004CF3282510BD2000F29753 /* Fullstack_notes_APPApp.swift */; };
+		004CF32B2510BD2000F29753 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004CF32A2510BD2000F29753 /* ContentView.swift */; };
+		004CF32D2510BD2200F29753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004CF32C2510BD2200F29753 /* Assets.xcassets */; };
+		004CF3302510BD2200F29753 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004CF32F2510BD2200F29753 /* Preview Assets.xcassets */; };
+		004CF33B2510BD2300F29753 /* Fullstack_notes_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004CF33A2510BD2300F29753 /* Fullstack_notes_APPTests.swift */; };
+		004CF3462510BD2300F29753 /* Fullstack_notes_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004CF3452510BD2300F29753 /* Fullstack_notes_APPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		004CF3372510BD2300F29753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004CF31D2510BD2000F29753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004CF3242510BD2000F29753;
+			remoteInfo = "Fullstack notes APP";
+		};
+		004CF3422510BD2300F29753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004CF31D2510BD2000F29753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004CF3242510BD2000F29753;
+			remoteInfo = "Fullstack notes APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004CF3252510BD2000F29753 /* Fullstack notes APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fullstack notes APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		004CF3282510BD2000F29753 /* Fullstack_notes_APPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fullstack_notes_APPApp.swift; sourceTree = "<group>"; };
+		004CF32A2510BD2000F29753 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		004CF32C2510BD2200F29753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		004CF32F2510BD2200F29753 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		004CF3312510BD2200F29753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004CF3362510BD2300F29753 /* Fullstack notes APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fullstack notes APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		004CF33A2510BD2300F29753 /* Fullstack_notes_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fullstack_notes_APPTests.swift; sourceTree = "<group>"; };
+		004CF33C2510BD2300F29753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004CF3412510BD2300F29753 /* Fullstack notes APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fullstack notes APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		004CF3452510BD2300F29753 /* Fullstack_notes_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fullstack_notes_APPUITests.swift; sourceTree = "<group>"; };
+		004CF3472510BD2300F29753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		004CF3222510BD2000F29753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004CF3332510BD2300F29753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004CF33E2510BD2300F29753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004CF31C2510BD2000F29753 = {
+			isa = PBXGroup;
+			children = (
+				004CF3272510BD2000F29753 /* Fullstack notes APP */,
+				004CF3392510BD2300F29753 /* Fullstack notes APPTests */,
+				004CF3442510BD2300F29753 /* Fullstack notes APPUITests */,
+				004CF3262510BD2000F29753 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		004CF3262510BD2000F29753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				004CF3252510BD2000F29753 /* Fullstack notes APP.app */,
+				004CF3362510BD2300F29753 /* Fullstack notes APPTests.xctest */,
+				004CF3412510BD2300F29753 /* Fullstack notes APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		004CF3272510BD2000F29753 /* Fullstack notes APP */ = {
+			isa = PBXGroup;
+			children = (
+				004CF3282510BD2000F29753 /* Fullstack_notes_APPApp.swift */,
+				004CF32A2510BD2000F29753 /* ContentView.swift */,
+				004CF32C2510BD2200F29753 /* Assets.xcassets */,
+				004CF3312510BD2200F29753 /* Info.plist */,
+				004CF32E2510BD2200F29753 /* Preview Content */,
+			);
+			path = "Fullstack notes APP";
+			sourceTree = "<group>";
+		};
+		004CF32E2510BD2200F29753 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				004CF32F2510BD2200F29753 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		004CF3392510BD2300F29753 /* Fullstack notes APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				004CF33A2510BD2300F29753 /* Fullstack_notes_APPTests.swift */,
+				004CF33C2510BD2300F29753 /* Info.plist */,
+			);
+			path = "Fullstack notes APPTests";
+			sourceTree = "<group>";
+		};
+		004CF3442510BD2300F29753 /* Fullstack notes APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				004CF3452510BD2300F29753 /* Fullstack_notes_APPUITests.swift */,
+				004CF3472510BD2300F29753 /* Info.plist */,
+			);
+			path = "Fullstack notes APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		004CF3242510BD2000F29753 /* Fullstack notes APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004CF34A2510BD2300F29753 /* Build configuration list for PBXNativeTarget "Fullstack notes APP" */;
+			buildPhases = (
+				004CF3212510BD2000F29753 /* Sources */,
+				004CF3222510BD2000F29753 /* Frameworks */,
+				004CF3232510BD2000F29753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fullstack notes APP";
+			productName = "Fullstack notes APP";
+			productReference = 004CF3252510BD2000F29753 /* Fullstack notes APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		004CF3352510BD2300F29753 /* Fullstack notes APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004CF34D2510BD2300F29753 /* Build configuration list for PBXNativeTarget "Fullstack notes APPTests" */;
+			buildPhases = (
+				004CF3322510BD2300F29753 /* Sources */,
+				004CF3332510BD2300F29753 /* Frameworks */,
+				004CF3342510BD2300F29753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004CF3382510BD2300F29753 /* PBXTargetDependency */,
+			);
+			name = "Fullstack notes APPTests";
+			productName = "Fullstack notes APPTests";
+			productReference = 004CF3362510BD2300F29753 /* Fullstack notes APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		004CF3402510BD2300F29753 /* Fullstack notes APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004CF3502510BD2300F29753 /* Build configuration list for PBXNativeTarget "Fullstack notes APPUITests" */;
+			buildPhases = (
+				004CF33D2510BD2300F29753 /* Sources */,
+				004CF33E2510BD2300F29753 /* Frameworks */,
+				004CF33F2510BD2300F29753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004CF3432510BD2300F29753 /* PBXTargetDependency */,
+			);
+			name = "Fullstack notes APPUITests";
+			productName = "Fullstack notes APPUITests";
+			productReference = 004CF3412510BD2300F29753 /* Fullstack notes APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		004CF31D2510BD2000F29753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					004CF3242510BD2000F29753 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					004CF3352510BD2300F29753 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 004CF3242510BD2000F29753;
+					};
+					004CF3402510BD2300F29753 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 004CF3242510BD2000F29753;
+					};
+				};
+			};
+			buildConfigurationList = 004CF3202510BD2000F29753 /* Build configuration list for PBXProject "Fullstack notes APP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 004CF31C2510BD2000F29753;
+			productRefGroup = 004CF3262510BD2000F29753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				004CF3242510BD2000F29753 /* Fullstack notes APP */,
+				004CF3352510BD2300F29753 /* Fullstack notes APPTests */,
+				004CF3402510BD2300F29753 /* Fullstack notes APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		004CF3232510BD2000F29753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004CF3302510BD2200F29753 /* Preview Assets.xcassets in Resources */,
+				004CF32D2510BD2200F29753 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004CF3342510BD2300F29753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004CF33F2510BD2300F29753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		004CF3212510BD2000F29753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004CF32B2510BD2000F29753 /* ContentView.swift in Sources */,
+				004CF3292510BD2000F29753 /* Fullstack_notes_APPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004CF3322510BD2300F29753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004CF33B2510BD2300F29753 /* Fullstack_notes_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004CF33D2510BD2300F29753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004CF3462510BD2300F29753 /* Fullstack_notes_APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		004CF3382510BD2300F29753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004CF3242510BD2000F29753 /* Fullstack notes APP */;
+			targetProxy = 004CF3372510BD2300F29753 /* PBXContainerItemProxy */;
+		};
+		004CF3432510BD2300F29753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004CF3242510BD2000F29753 /* Fullstack notes APP */;
+			targetProxy = 004CF3422510BD2300F29753 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		004CF3482510BD2300F29753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		004CF3492510BD2300F29753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		004CF34B2510BD2300F29753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fullstack notes APP/Preview Content\"";
+				DEVELOPMENT_TEAM = 86U3LK3Z76;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fullstack notes APP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Engine98.Fullstack-notes-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		004CF34C2510BD2300F29753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fullstack notes APP/Preview Content\"";
+				DEVELOPMENT_TEAM = 86U3LK3Z76;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fullstack notes APP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Engine98.Fullstack-notes-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		004CF34E2510BD2300F29753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86U3LK3Z76;
+				INFOPLIST_FILE = "Fullstack notes APPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Engine98.Fullstack-notes-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fullstack notes APP.app/Fullstack notes APP";
+			};
+			name = Debug;
+		};
+		004CF34F2510BD2300F29753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86U3LK3Z76;
+				INFOPLIST_FILE = "Fullstack notes APPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Engine98.Fullstack-notes-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fullstack notes APP.app/Fullstack notes APP";
+			};
+			name = Release;
+		};
+		004CF3512510BD2300F29753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86U3LK3Z76;
+				INFOPLIST_FILE = "Fullstack notes APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Engine98.Fullstack-notes-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fullstack notes APP";
+			};
+			name = Debug;
+		};
+		004CF3522510BD2300F29753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86U3LK3Z76;
+				INFOPLIST_FILE = "Fullstack notes APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Engine98.Fullstack-notes-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fullstack notes APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		004CF3202510BD2000F29753 /* Build configuration list for PBXProject "Fullstack notes APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004CF3482510BD2300F29753 /* Debug */,
+				004CF3492510BD2300F29753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004CF34A2510BD2300F29753 /* Build configuration list for PBXNativeTarget "Fullstack notes APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004CF34B2510BD2300F29753 /* Debug */,
+				004CF34C2510BD2300F29753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004CF34D2510BD2300F29753 /* Build configuration list for PBXNativeTarget "Fullstack notes APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004CF34E2510BD2300F29753 /* Debug */,
+				004CF34F2510BD2300F29753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004CF3502510BD2300F29753 /* Build configuration list for PBXNativeTarget "Fullstack notes APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004CF3512510BD2300F29753 /* Debug */,
+				004CF3522510BD2300F29753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 004CF31D2510BD2000F29753 /* Project object */;
+}
